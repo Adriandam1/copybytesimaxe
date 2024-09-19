@@ -11,10 +11,10 @@ public class Main {
                 // creo e indico los FileInputStream y FileOutputStream
                 FileInputStream inputStream = new FileInputStream("foto.jpg");
                 // Pongo false para sobreescribir el archivo si lo hubiese de texto2.txt
-                FileOutputStream outputStream = new FileOutputStream("foto2.jpg", false);
+                //FileOutputStream outputStream = new FileOutputStream("foto2.jpg", false);
 
                 // Utilizo true para que añada al final en vez de sobreescribir
-                //FileOutputStream outputStream = new FileOutputStream("texto2.txt", true);
+                FileOutputStream outputStream = new FileOutputStream("foto2.jpg", true);
         ){
             // variable para el numero de byte
             int numeroByte;
