@@ -9,9 +9,9 @@ public class Main {
         System.out.println("Iniciando el proceso de copia... crucemos los dedos");
         try (
                 // creo e indico los FileInputStream y FileOutputStream
-                FileInputStream inputStream = new FileInputStream("texto1.txt");
+                FileInputStream inputStream = new FileInputStream("foto.jpg");
                 // Pongo false para sobreescribir el archivo si lo hubiese de texto2.txt
-                FileOutputStream outputStream = new FileOutputStream("texto2.txt", false);
+                FileOutputStream outputStream = new FileOutputStream("foto2.jpg", false);
 
                 // Utilizo true para que añada al final en vez de sobreescribir
                 //FileOutputStream outputStream = new FileOutputStream("texto2.txt", true);
